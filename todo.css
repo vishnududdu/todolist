@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-container {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .delete-btn {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 100%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none; 
+    -webkit-appearance: none;
+     outline: none; 
+    cursor: pointer;
+}
+
+.checkbox-round:checked{
+background-color: blue;
+}
+#remain, .grey{
+    /* margin-left: 10px; */
+    color: dimgrey;
+    font-size: 0.8rem;
+}
+#left,#all{
+    margin-left: 150px;
+    font-size: 0.8rem;
+}
+#count{
+    margin-left: 10px;   
+}
+
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+<div class="todo-container">
+  <h2>Todo List</h2>
+  <input type="text" id="todoInput" placeholder="Type your todo list" autofocus>
+
+  <button onclick="addTodo()">Add</button>
+  <span class="grey">Complete all tasks</span><span class="grey" id="left">                   Clear completed</span>
+  <ul id="todoList"></ul>
+  <!-- <br> -->
+  <hr>
+  <span id="count">0</span><span id="remain"> tasks left</span><span id="all">All  <span class="grey">uncompleted completed</span></span>
+</div>
+
+<script src="todo.js"></script>
+</body>
+</html>
